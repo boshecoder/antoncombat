@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: lightslategrey;
+}
+
+#tap {
+  position: fixed;
+  height: 170px;
+  width: 170px;
+  bottom: 50vh;
+  border: none;
+  transition: transform 0.1s ease-in;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#tap:active {
+  transform: scale(0.9);
+}
+
+#tapimg {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  left: 0vh;
+  top: 0px;
+}
+
+#ant {
+  position: fixed;
+  color: aliceblue;
+  bottom: 500px;
+}
+
+#title {
+  position: fixed;
+  top: 0px;
+  color: aliceblue;
+}

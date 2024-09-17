@@ -37,7 +37,7 @@ tap.addEventListener('click', function() {
 boost.addEventListener('click', function() {
     if (ants >= boost_cost) {
         ants -= boost_cost;
-        boosts += 0.1;
+        boosts += 0.25;
         boost_cost *= 2;
         boost.textContent = `Улучшить тап (${boost_cost} $ANTON)`;
         anth.textContent = `${ants} $ANTON`;

@@ -5,6 +5,39 @@ html, body {
   width: 100%;
 }
 
+#address {
+  position: fixed;
+  color: aliceblue;
+  bottom: 6vh;
+}
+
+#adi {
+  position: fixed;
+  height: 30px;
+  width: 250px;
+  bottom: 15vh;
+  border: none;
+  border-radius: 10px;
+  display: none;
+  background-color: aliceblue:
+}
+
+#adc {
+  position: fixed;
+  bottom: 3vh;
+  height: 25px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  background-color: steelblue;
+  color: white;
+  transition: transform 0.1s ease-in;
+}
+
+#adc:active {
+  transform: scale(0.9);
+}
+
 #boost {
   position: fixed;
   height: 50px;

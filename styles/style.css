@@ -5,11 +5,26 @@ html, body {
   width: 100%;
 }
 
+#boost {
+  position: fixed;
+  height: 50px;
+  width: 200px;
+  top: 55vh;
+  color: white;
+  background-color: steelblue;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.1s ease-in;
+}
+#boost:active {
+  transform: scale(0.9);
+}
+
 .main {
   display: flex;
   justify-content: center;
   height: 100vh;
-  background-color: lightslategrey;
+  background-color: lightsteelblue;
 }
 
 #tap {
@@ -37,7 +52,7 @@ html, body {
 #ant {
   position: fixed;
   color: aliceblue;
-  bottom: 500px;
+  top: 50px;
 }
 
 #title {

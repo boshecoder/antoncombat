@@ -13,7 +13,7 @@ let adc_s = false;
 let addc = localStorage.getItem("addc");
 
 if (addc) {
-    addc = addc;
+    addc = "Назначен";
 } else {
     addc = "Не назначен";
 }    
@@ -50,7 +50,7 @@ adc.addEventListener('click', function() {
     } else {
         addc = adi.value;
         adl.style.display = "block";
-        adl.textContent = `TON Адрес: ${addc}`;
+        adl.textContent = "TON Адрес: Назначен";
         localStorage.setItem("addc", addc);
         adi.style.display = "none";
         adc.textContent = "Изменить";
